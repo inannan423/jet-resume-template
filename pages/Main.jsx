@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import content from "../content";
-import { exportPDF } from "./exportPDF";
+// import { exportPDF } from "./exportPDF";
 import { Avatar, Grid, Badge } from "@nextui-org/react";
 import { Call, Message, Discovery, Calendar } from "react-iconly";
 export default function Main() {
@@ -11,11 +11,11 @@ export default function Main() {
     const colors = ["primary", "secondary", "success", "warning", "error"];
     return colors[Math.floor(Math.random() * colors.length)];
   };
-  function exportpdf() {
-    console.log("exportpdf");
-    let ele = document.getElementById("main");
-    exportPDF("doc.pdf", ele);
-  }
+  // function exportpdf() {
+  //   console.log("exportpdf");
+  //   let ele = document.getElementById("main");
+  //   exportPDF("doc.pdf", ele);
+  // }
   return (
     <>
       {/* 将页面分为左右两部分 */}

@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import styles from "../styles/Home.module.css";
 import Main from "./Main";
-import { exportPDF } from "./exportPDF";
+// import { exportPDF } from "./exportPDF";
 import { NextUIProvider, Button } from "@nextui-org/react";
 export default function Home() {
   return (
